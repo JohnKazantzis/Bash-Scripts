@@ -12,8 +12,6 @@ for i in $*; do
   commitMessage+=" "
 done
 
-#echo "$commitMessage"
-git status
 git add *
 git commit -m "$commitMessage"
 git push
